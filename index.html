@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+
+
+</head>
+<body>
+<!--start project-->
+<div class="wrapper">
+    <!--menu start-->
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#">home-1</a></li>
+                <li><a href="#">home-2</a></li>
+                <li><a href="#">home-3</a></li>
+                <li><a href="#">home-4</a></li>
+                <li><a href="#">home-5</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--menu end-->
+<!--swiper start-->
+<div class="swiperkarim">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/qp3oN9.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/wallpapersden.com_76524-2560x1440.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/WGYZPU.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/wp6690516.webp" alt=""></div>
+          <div class="swiper-slide"><img src="./images/x7HOq2.webp" alt=""></div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+</div>    
+<!--swiper end-->        
+<!--products start -->
+<div class="products">
+    <div class="product">
+        <img src="./images/qp3oN9.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi ipsum aut, similique ab modi omnis totam quaerat quas error provident excepturi? Nemo adipisci voluptatum consequuntur illo perspiciatis? Impedit, earum.</p>
+        <a href="#">read-more</a>
+    </div>
+    <div class="product">
+        <img src="./images/qp3oN9.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi ipsum aut, similique ab modi omnis totam quaerat quas error provident excepturi? Nemo adipisci voluptatum consequuntur illo perspiciatis? Impedit, earum.</p>
+        <a href="#">read-more</a>
+    </div>
+    <div class="product">
+        <img src="./images/qp3oN9.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi ipsum aut, similique ab modi omnis totam quaerat quas error provident excepturi? Nemo adipisci voluptatum consequuntur illo perspiciatis? Impedit, earum.</p>
+        <a href="#">read-more</a>
+    </div>
+    <div class="product">
+        <img src="./images/qp3oN9.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi ipsum aut, similique ab modi omnis totam quaerat quas error provident excepturi? Nemo adipisci voluptatum consequuntur illo perspiciatis? Impedit, earum.</p>
+        <a href="#">read-more</a>
+    </div>
+</div>
+<!--products end-->
+
+</div>
+<!--end project-->
+<script src="./node_modules/swiper/swiper-bundle.min.js" ></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
